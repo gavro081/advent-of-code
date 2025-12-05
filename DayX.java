@@ -19,18 +19,18 @@ class Part2{
 
 public class DayX {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("aoc_25/dx/input.txt");
-//        File file = new File("aoc/dx/test-input.txt");
+        File file = new File("aoc_25/dayx/input.txt");
+//        File file = new File("aoc_25/dayx/test-input.txt");
 
         Scanner sc = new Scanner(file);
         // 1
-        String input = sc.nextLine();
+//        String input = sc.nextLine();
 
         // 2
         ArrayList<String> inputs = new ArrayList<>();
-        while (sc.hasNextLine()){
-            inputs.add(sc.nextLine());
-        }
+//        while (sc.hasNextLine()){
+//            inputs.add(sc.nextLine());
+//        }
 
         System.out.println("part1: " + Part1.solve());
         System.out.println("part1: " + Part2.solve());
