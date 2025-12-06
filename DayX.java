@@ -7,13 +7,15 @@ class Helper{}
 
 class Part1{
     public static long solve(){
-        return 0;
+        long ans = 0;
+        return ans;
     }
 }
 
 class Part2{
     public static long solve(){
-        return 0;
+        long ans = 0;
+        return ans;
     }
 }
 
@@ -33,6 +35,6 @@ public class DayX {
 //        }
 
         System.out.println("part1: " + Part1.solve());
-        System.out.println("part1: " + Part2.solve());
+        System.out.println("part2: " + Part2.solve());
     }
 }
