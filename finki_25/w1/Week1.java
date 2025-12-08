@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Week1 {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("finki/w1/input.txt");
+        File file = new File("finki_25/w1/input.txt");
         Scanner sc = new Scanner(file);
         int K = Integer.parseInt(sc.nextLine());
         int[] array = Arrays.stream(sc.nextLine()
