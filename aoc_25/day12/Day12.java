@@ -1,3 +1,5 @@
+package aoc_25.day12;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -19,10 +21,10 @@ class Part2{
     }
 }
 
-public class DayX {
+public class Day12 {
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("aoc_25/dayx/input.txt");
-//        File file = new File("aoc_25/dayx/test-input.txt");
+//        File file = new File("aoc_25/day12/input.txt");
+        File file = new File("aoc_25/day12/test-input.txt");
 
         Scanner sc = new Scanner(file);
 
@@ -35,3 +37,4 @@ public class DayX {
         System.out.println("part2: " + Part2.solve(inputs));
     }
 }
+
